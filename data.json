@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "version": "2.0",
+    "encoding": "UTF-8",
+    "description": "Bilingual Math Problems with Arabic/English Steps"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "category_en": "Algebra",
+      "category_ar": "الجبر",
+      "difficulty": "Easy",
+      "question_en": "Solve for x: 2x + 5 = 15",
+      "question_ar": "حل المعادلة: ٢س + ٥ = ١٥",
+      "answer": "5",
+      "steps_en": [
+        "Subtract 5 from both sides: 2x = 10",
+        "Divide by 2: x = 5"
+      ],
+      "steps_ar": [
+        "طرح ٥ من الطرفين: ٢س = ١٠",
+        "القسمة على ٢: س = ٥"
+      ]
+    },
+    {
+      "id": "2",
+      "category_en": "Algebra",
+      "category_ar": "الجبر",
+      "difficulty": "Medium",
+      "question_en": "Find the roots: x^2 - 5x + 6 = 0",
+      "question_ar": "أوجد الجذور: س^٢ - ٥س + ٦ = ٠",
+      "answer": "2, 3",
+      "steps_en": [
+        "Factor the quadratic: (x - 2)(x - 3) = 0",
+        "Set each factor to zero: x - 2 = 0 or x - 3 = 0",
+        "Solve: x = 2, x = 3"
+      ],
+      "steps_ar": [
+        "تحليل المعادلة التربيعية: (س - ٢)(س - ٣) = ٠",
+        "مساواة كل قوس بالصفر: س - ٢ = ٠ أو س - ٣ = ٠",
+        "الحل: س = ٢، س = ٣"
+      ]
+    },
+    {
+      "id": "3",
+      "category_en": "Geometry",
+      "category_ar": "هندسة",
+      "difficulty": "Medium",
+      "question_en": "Calculate the area of a circle with radius 7 (use pi ≈ 22/7)",
+      "question_ar": "احسب مساحة دائرة نصف قطرها ٧ (بافتراض ط ≈ ٢٢/٧)",
+      "answer": "154",
+      "steps_en": [
+        "Formula: Area = pi * r^2",
+        "Substitute values: (22/7) * 7 * 7",
+        "Calculate: 22 * 7 = 154"
+      ],
+      "steps_ar": [
+        "القانون: المساحة = ط × نق^٢",
+        "التعويض: (٢٢/٧) × ٧ × ٧",
+        "الحساب: ٢٢ × ٧ = ١٥٤"
+      ]
+    },
+    {
+      "id": "4",
+      "category_en": "Calculus",
+      "category_ar": "تفاضل",
+      "difficulty": "Medium",
+      "question_en": "What is the derivative of f(x) = sin(x)?",
+      "question_ar": "ما هي مشتقة الدالة د(س) = جا(س)؟",
+      "answer": "cos(x)",
+      "steps_en": [
+        "Identify the function: f(x) = sin(x)",
+        "Apply standard derivative rule: f'(x) = cos(x)"
+      ],
+      "steps_ar": [
+        "تحديد الدالة: د(س) = جا(س)",
+        "تطبيق قاعدة الاشتقاق القياسية: د'(س) = جتا(س)"
+      ]
+    },
+    {
+      "id": "5",
+      "category_en": "Calculus",
+      "category_ar": "تكامل",
+      "difficulty": "Hard",
+      "question_en": "Find the integral: ∫ 2x dx",
+      "question_ar": "أوجد التكامل: ∫ ٢س د.س",
+      "answer": "x^2 + C",
+      "steps_en": [
+        "Apply Power Rule: ∫ x^n dx = x^(n+1)/(n+1)",
+        "Calculate: 2 * (x^2 / 2)",
+        "Simplify: x^2 + C"
+      ],
+      "steps_ar": [
+        "تطبيق قاعدة القوى: ∫ س^ن = س^(ن+١)/(ن+١)",
+        "الحساب: ٢ × (س^٢ / ٢)",
+        "التبسيط: س^٢ + ث"
+      ]
+    },
+    {
+      "id": "6",
+      "category_en": "Trigonometry",
+      "category_ar": "حساب مثلثات",
+      "difficulty": "Easy",
+      "question_en": "Calculate sin(30°)",
+      "question_ar": "احسب جا(٣٠)",
+      "answer": "0.5",
+      "steps_en": [
+        "Recall values from the unit circle",
+        "sin(30°) is exactly 1/2 or 0.5"
+      ],
+      "steps_ar": [
+        "استرجاع القيم من دائرة الوحدة",
+        "جا(٣٠) يساوي تماماً ١/٢ أو ٠.٥"
+      ]
+    },
+    {
+      "id": "7",
+      "category_en": "Statistics",
+      "category_ar": "إحصاء",
+      "difficulty": "Easy",
+      "question_en": "Find the mean of the set: {2, 4, 6}",
+      "question_ar": "أوجد المتوسط الحسابي للمجموعة: {٢، ٤، ٦}",
+      "answer": "4",
+      "steps_en": [
+        "Sum the numbers: 2 + 4 + 6 = 12",
+        "Count the numbers: 3",
+        "Divide Sum by Count: 12 / 3 = 4"
+      ],
+      "steps_ar": [
+        "جمع الأعداد: ٢ + ٤ + ٦ = ١٢",
+        "عد العناصر: ٣",
+        "قسمة المجموع على العدد: ١٢ / ٣ = ٤"
+      ]
+    },
+    {
+      "id": "8",
+      "category_en": "Arithmetic",
+      "category_ar": "حساب",
+      "difficulty": "Easy",
+      "question_en": "Calculate 15 * 12",
+      "question_ar": "احسب ١٥ × ١٢",
+      "answer": "180",
+      "steps_en": [
+        "Break down 12 into 10 + 2",
+        "Multiply: 15 * 10 = 150",
+        "Multiply: 15 * 2 = 30",
+        "Add: 150 + 30 = 180"
+      ],
+      "steps_ar": [
+        "تفكيك ١٢ إلى ١٠ + ٢",
+        "ضرب: ١٥ × ١٠ = ١٥٠",
+        "ضرب: ١٥ × ٢ = ٣٠",
+        "جمع: ١٥٠ + ٣٠ = ١٨٠"
+      ]
+    },
+    {
+      "id": "9",
+      "category_en": "Linear Algebra",
+      "category_ar": "جبر خطي",
+      "difficulty": "Hard",
+      "question_en": "Find determinant of matrix [[1, 2], [3, 4]]",
+      "question_ar": "أوجد محدد المصفوفة [[١، ٢]، [٣، ٤]]",
+      "answer": "-2",
+      "steps_en": [
+        "Formula for 2x2 matrix: ad - bc",
+        "Identify elements: a=1, b=2, c=3, d=4",
+        "Calculate: (1*4) - (2*3) = 4 - 6 = -2"
+      ],
+      "steps_ar": [
+        "قانون المصفوفة ٢×٢: (القطر الرئيسي) - (القطر الفرعي)",
+        "تحديد العناصر: أ=١، ب=٢، ج=٣، د=٤",
+        "الحساب: (١×٤) - (٢×٣) = ٤ - ٦ = -٢"
+      ]
+    },
+    {
+      "id": "10",
+      "category_en": "Probability",
+      "category_ar": "احتمالات",
+      "difficulty": "Medium",
+      "question_en": "Probability of flipping 'Heads' on a fair coin?",
+      "question_ar": "ما احتمال ظهور 'صورة' عند رمي عملة معدنية؟",
+      "answer": "0.5",
+      "steps_en": [
+        "Identify total possible outcomes: 2 (Heads, Tails)",
+        "Identify desired outcomes: 1 (Heads)",
+        "Probability = Desired / Total = 1/2 = 0.5"
+      ],
+      "steps_ar": [
+        "عدد النواتج الممكنة: ٢ (صورة، كتابة)",
+        "عدد النواتج المطلوبة: ١ (صورة)",
+        "الاحتمال = المطلوب / الكلي = ١/٢ = ٠.٥"
+      ]
+    }
+  ]
+}
